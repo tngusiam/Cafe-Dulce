@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <title>Cafe Dulce</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/header,footer/favicon.png">
+    <!-- webfont -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main_style.css">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- slick 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header_wrap">
+            <div class="header">
+                <div class="inner_header">
+                    <div class="logo_wrap">
+                        <h1 class="logo">
+        
+                            <a href="index.html"><img src="images/header,footer/logo.png" alt="logo"></a>
+                        </h1>
+                    </div>
+                    <nav>
+                        <div class="gnb">
+                            <ul class="gnb_left">
+                                <li><a href="#">Brand</a></li>
+                                <li><a href="#">Menu</a></li>
+                            </ul>
+                            <ul class="gnb_right">
+                                <li><a href="#">News </a></li>
+                                <li><a href="#">Store</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu">
+                            <div class="inner_submenu">
+                                <ul class="submenu_left submenu1">
+                                    <li><a href="#">브랜드 스토리</a></li>
+                                    <li><a href="#">재료이야기</a></li>
+                                    <li><a href="#">더 맛있는 조합</a></li>
+                                    <li><a href="#">브랜드 아이덴티티</a></li>
+                                </ul>
+                                <ul class="submenu_left">
+                                    <li><a href="#">케이크</a></li>
+                                    <li><a href="#">스위트</a></li>
+                                    <li><a href="#">음료</a></li>
+                                </ul>
+                                <ul class="submenu_right submenu3">
+                                    <li><a href="#">케이크 예약</a></li>
+                                    <li><a href="#">자주하는 질문</a></li>
+                                    <li><a href="#">프랜차이즈</a></li>
+                                    <li><a href="#">매장찾기</a></li>
+                                </ul>
+                                <ul class="submenu_right">
+                                    <li><a href="#">브랜드 소식</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                    <li><a href="#">고객의 소리</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="main_visual">
+            <div class="inner_main_visual">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/main/banner1.jpg" alt="banner">
+                            <div class="visual_textbox visual1">
+                                <a href="#">
+                                    READ MORE
+                                    <div class="visual_round"></div>
+                                    <img class="arrow" src="./images/main/arrow.png" alt="more">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main/banner2.jpg" alt="banner">
+                            <div class="visual_textbox visual2">
+                                <a href="#">
+                                    READ MORE
+                                    <div class="visual_round"></div>
+                                    <img class="arrow" src="./images/main/arrow.png" alt="more">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/main/banner3.jpg" alt="banner">
+                            <div class="visual_textbox visual3">
+                                <a href="#">
+                                    READ MORE
+                                    <div class="visual_round"></div>
+                                    <img class="arrow" src="./images/main/arrow.png" alt="more">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>  
+        </div>
+        <div id="section1">
+            <h2 class="title">Dulce's Best Menu</h2>
+            <div class="line"></div>
+            <ul>
+                <li><a href="#">
+                        <div class="menu_img">
+                            <img src="./images/main/eclair.png" alt="best_menu">
+                        </div>
+                        <div class="menu_hover">
+                            <img src="images/main/eclair-2.png" alt="best_menu">
+                        </div>
+                        <div class="menu_border"></div>
+                        <div class="menu_text">
+                            <p class="menu_line"><span class="menu_etitle">Mont blanc eclair</span>
+                                <br><span class="menu_title">몽블랑 에클레어</span>
+                            </p>
+                            <p>마론 크림이 한 가득 들어있어
+                                달콤하고 부드러운
+                                몽블랑 에클레어</p>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div class="menu_img">
+                            <img src="./images/main/blackberry.png" alt="best_menu">
+                        </div>
+                        <div class="menu_hover blackberry">
+                            <img src="images/main/blackberry-2.png" alt="best_menu">
+                        </div>
+                        <div class="menu_border"></div>
+                        <div class="menu_text">
+                            <p class="menu_line"><span class="menu_etitle">Black berry cake</span>
+                                <br><span class="menu_title">블랙베리 케이크</span>
+                            </p>
+                            <p>상큼한 블랙베리 크림이 들어간
+                                부드러운 블랙베리 무스케이크</p>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div class="menu_img">
+                            <img src="./images/main/carrot.png" alt="best_menu">
+                        </div>
+                        <div class="menu_hover">
+                            <img src="images/main/carrot-2.png" alt="best_menu">
+                        </div>
+                        <div class="menu_border"></div>
+                        <div class="menu_text">
+                            <p class="menu_line"><span class="menu_etitle">Carrot cake</span>
+                                <br><span class="menu_title">당근 케이크</span>
+                            </p>
+                            <p>크림치즈 프로스팅과
+                                견과류를 듬뿍, 계피향이 향긋한
+                                당근 케이크</p>
+                        </div>
+                    </a></li>
+                <li><a href="#">
+                        <div class="menu_img">
+                            <img src="./images/main/cup_tiramisu.png" alt="best_menu">
+                        </div>
+                        <div class="menu_hover">
+                            <img src="images/main/cup_tiramisu-2.png" alt="best_menu">
+                        </div>
+                        <div class="menu_border"></div>
+                        <div class="menu_text">
+                            <p class="menu_line"><span class="menu_etitle">Chocolate tiraminu</span>
+                                <br><span class="menu_title">한컵 초코 티라미수</span>
+                            </p>
+                            <p>진한 초콜릿과
+                                마스카포네 크림치즈를
+                                느낄 수 있는 티라미수</p>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
+        <div id="banner1">
+            <div class="inner_banner1">
+                <h2 data-aos="fade-right" data-aos-duration="500">잠깐의 여유와</h2>
+                <div class="text_right">
+                    <h2 data-aos="fade-right" data-aos-duration="500">달콤한 행복</h2>
+                    <div data-aos="fade-left" data-aos-duration="500">
+                        <p class="banner_text">SWEET BREAK, <span>CAFE DULCE'S DESSERT</span></p>
+                        <p>Happiness, Fun, Refreshment, Energy and Break....
+                            <br>If need be, just enjoy them!
+                            <br>In busy daily lives, Dulce's will be a sweet friend to you
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section2">
+            <div class="inner_section2">
+                <div class="arch event1" data-aos="fade-down-right" data-aos-duration="1500" data-aos-offset="300">
+                    <img src="images/main/event1.png" alt="event">
+                </div>
+                <div class="section2_box event2" data-aos="fade-right" data-aos-duration="2500">
+                    <img src="images/main/event2.png" alt="event">
+                </div>
+                <div class="arch store1" data-aos="fade-down-left" data-aos-duration="1500">
+                    <img src="images/main/store1.png" alt="store">
+                </div>
+                <div class="section2_box store2" data-aos="fade-left" data-aos-duration="2500">
+                    <img src="images/main/store2.png" alt="store">
+                </div>
+                <div class="section2_textbox" >
+                    <div class="event">
+                        <h2 class="title">Event</h2>
+                        <div class="line"></div>
+                        <p>지금 진행중인 다양한 이벤트를 확인하고
+                            <br>혜택도 같이 받아보세요.
+                        </p>
+                        <a href="#">
+                            MORE
+                            <div class="event_round"></div>
+                            <img class="arrow" src="./images/main/arrow.png" alt="more">
+                        </a>
+                    </div>
+                    <div class="store">
+                        <h2 class="title">Store</h2>
+                        <div class="line"></div>
+                        <p>달콤한 휴식을 즐길 수 있는
+                            <br>Cafe Dulce 매장을 찾아보세요.
+                        </p>
+                        <a href="#">
+                            MORE
+                            <div class="store_round"></div>
+                            <img class="arrow" src="./images/main/arrow.png" alt="more">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section3">
+            <div class="inner_section3">
+                <div class="section3_textbox">
+                    <h2 class="title">Dessert</h2>
+                    <div class="line"></div>
+                    <p class="section3_text">
+                        즐거움을 더해 줄 좋은 사람들과 함께 있을 그 순간,
+                        둘쎄 디저트와 함께하세요.
+                    </p>
+                    <p>
+                        카페 둘쎄의 디저트는 엄선된 최고의 재료만 사용합니다.
+                        특히 신선한 1등급 우유로 만든 생크림을 사용하여 훨씬
+                        부드럽고 깔끔한 맛을 느낄 수 있습니다.
+                    </p>
+                    <a href="#">
+                        <p class="section3_btn_text">디저트 보러가기</p>
+                        <div class="btn_hover"></div>
+                    </a>
+                </div>
+                <div class="video">
+                    <img src="./images/main/video.png" alt="video">
+                </div>
+            </div>
+        </div>
+        <div id="banner2">
+            <div class="inner_banner2">
+                <div class="banner2_img" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="images/main/muscat.png" alt="reservation">
+                </div>
+                <div class="banner2_textbox" data-aos="fade-left" data-aos-duration="1500">
+                    <h2><span>미리 예약하고 픽업!</span>
+                        <br>홀케이크 예약하기
+                    </h2>
+                    <p class="banner2_text">
+                        둘쎄 케이크 미리 예약하고
+                        <br>더 특별하고 사랑스러운 날을 보내세요.
+                    </p>
+                    <a href="#">
+                        <p class="banner2_btn_text">예약하기</p>
+                        <div class="btn_hover"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="section4">
+            <h2 class="title">Dulce's SNS</h2>
+            <div class="line"></div>
+            <div id="main-slider_wrap">
+                <div class="main-slider">
+                    <div class="item item-1">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo1.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-2">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo2.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-3">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo3.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-4">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo4.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-5">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo5.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-6">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo6.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-7">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo7.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-8">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo8.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-9">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo9.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item item-10">
+                        <div class="inner-text">
+                            <img src="images/main/sns_photo10.png" alt="sns">
+                        </div>
+                        <div class="item_hover">
+                            <a href="#">
+                                <img src="images/main/icon.png" alt="sns">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="inner_footer">
+                    <div class="footer_logo">
+                        <img src="./images/header,footer/footer_logo.png" alt="logo">
+                    </div>
+                    <div class="footer_textbox">
+                        <ul>
+                            <li>
+                                <a href="#">기업소개</a>
+                            </li>
+                            <li>
+                                <a href="#">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="#">개인정보취급방침</a>
+                            </li>
+                            <li>
+                                <a href="#">가맹상담</a>
+                            </li>
+                        </ul>
+                        <p>
+                            부산광역시 사하구 다대로 500번길 12 ㈜Cafe Dulce
+                            <br>고객센터 051-1234-5678
+                            <br>사업자등록번호 121-23-69874 / 통신판매업신고 제2013-경기-0000호 / 대표 이수현
+                            <br><span>Copyright (c) Cafe_Dulce.co.kr All Rights Reserved.</span>
+                        </p>
+                    </div>
+                    <div class="footer_link">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img class="footer_link_none" src="./images/header,footer/twitter.png" alt="twitter">
+                                    <div class="footer_link_hover">
+                                        <img src="images/header,footer/hover_twitter.png" alt="twitter">
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="footer_link_none" src="./images/header,footer/instagram.png" alt="instagram">
+                                    <div class="footer_link_hover">
+                                        <img src="images/header,footer/hover_instagram.png" alt="instagram">
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="footer_link_none" src="./images/header,footer/facebook.png" alt="facebook">
+                                    <div class="footer_link_hover">
+                                        <img src="images/header,footer/hover_facebook.png" alt="facebook">
+                                    </div>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="footer_link_none" src="./images/header,footer/youtube.png" alt="youtube">
+                                    <div class="footer_link_hover">
+                                        <img src="images/header,footer/hover_youtube.png" alt="youtube">
+                                    </div>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/main_script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                loop: true,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 4500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+        <script>
+            var mainSlider = $('.main-slider');
+            var innerText = $('.inner-text');
+
+            mainSlider.slick({
+                slidesToShow: 7,
+                // dots: true,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+            });
+
+
+            mainSlider.on('wheel', function (e) {
+                e.preventDefault();
+
+                if (e.originalEvent.deltaY < 0) {
+                    $(this).slick('slickPrev');
+                } else {
+                    $(this).slick('slickNext');
+                }
+            });
+
+            innerText.on('wheel', function (e) {
+                e.stopPropagation();
+            })
+        </script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+
+</html>
