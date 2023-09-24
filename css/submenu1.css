@@ -405,6 +405,7 @@ body {
     float: left;
     width: 330px;
     height: 330px;
+    overflow: hidden;
 }
 .inner_section3> p{
     font-size: 16px;
