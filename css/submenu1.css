@@ -372,12 +372,8 @@ body {
     float: left;
     width: 400px;
     height: 640px;
-   
+    background-color: #fff;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-    overflow: hidden;
-}
-.inner_section2 li>div{
-     background-color: #fff;
 }
 .inner_section2 li:nth-child(2){
     margin: 0 60px;
