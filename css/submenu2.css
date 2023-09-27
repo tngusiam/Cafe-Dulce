@@ -194,6 +194,11 @@ body {
     height: 1000px;
     margin: 150px 0 100px;
 }
+#board_line{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .title_box{
     height: 560px;
     font-weight: 700;
