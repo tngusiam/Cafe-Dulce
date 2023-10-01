@@ -307,16 +307,60 @@ body {
     width: 1320px;
     margin: 0 auto;
 }
-.event{
-    width: 308px !important;
-    height: 427px;
-    margin: 80px 11px 20px;
+.event a{
+    display: block;
+    width: 308px;
+    margin: 80px 15px 20px;
+    box-sizing: border-box;
+    position: relative;
 }
-.event:nth-child(1){
-    margin-left:11px;
+.event a span{
+    display: block;
+    position: absolute;
+    background-color: #aaa;
+    z-index: 9;
+    transition: all 0.5s;
 }
-.event:nth-child(4){
-    margin-right: 20px;
+.border1{
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+}
+.border2{
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 0;
+}
+.border3{
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+}
+.border4{
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+}
+.event a:hover .border1, .event a:hover .border3{
+    width: 100%;
+}
+.event a:hover .border2, .event a:hover .border4{
+    height:  100%;
+}
+.event_imgbox{
+    overflow: hidden;
+
+}
+.event_imgbox img{
+    width: 100%;
+    transition: all 0.5s;    
+}
+.event a:hover .event_imgbox img{
+    transform: scale(1.05);
 }
 .event_textbox{
     height: 120px;
@@ -385,7 +429,7 @@ input[type=radio]:checked + label em{
     border-radius: 40px;
     text-align: center;
 }
-.store_select select{
+#store{
     width: 90%;
     margin-top: 13px;
     border: none;
