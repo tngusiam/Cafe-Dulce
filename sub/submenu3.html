@@ -36,7 +36,7 @@
                                 <li><a href="./submenu2.html">Menu</a></li>
                             </ul>
                             <ul class="gnb_right">
-                                <li><a href="./submenu3.html">News </a></li>
+                                <li><a href="#">News </a></li>
                                 <li><a href="#">Store</a></li>
                             </ul>
                         </div>
@@ -60,9 +60,9 @@
                                     <li><a href="#">매장찾기</a></li>
                                 </ul>
                                 <ul class="submenu_right">
-                                    <li><a href="#section1">브랜드 소식</a></li>
-                                    <li><a href="#section2">이벤트</a></li>
-                                    <li><a href="#section3">고객의 소리</a></li>
+                                    <li><a href="#">브랜드 소식</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                    <li><a href="#">고객의 소리</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                     <a href="#"><img src="../images/submenu3/news5.png" alt="news"></a>
                 </li>
             </ul>
-            
+
             <ul id="board">
                 <div id="board_line"></div>
                 <li class="on">
@@ -174,6 +174,10 @@
                                 </p>
                                 <p>2023.09.01~2023.09.15</p>
                             </div>
+                            <span class="border1"></span>
+                            <span class="border2"></span>
+                            <span class="border3"></span>
+                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -184,10 +188,14 @@
                             <div class="event_textbox">
                                 <p class="event_title">
                                     9월 이달의 음료
-<br>쿠폰 제시 시 할인
+                                    <br>쿠폰 제시 시 할인
                                 </p>
                                 <p>2023.09.01~2023.09.30</p>
                             </div>
+                            <span class="border1"></span>
+                            <span class="border2"></span>
+                            <span class="border3"></span>
+                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -198,10 +206,14 @@
                             <div class="event_textbox">
                                 <p class="event_title">
                                     환경의 날 맞이 이벤트
-<br>텀블러 사용시 할인
+                                    <br>텀블러 사용시 할인
                                 </p>
                                 <p>2023.06.01~2023.06.30</p>
                             </div>
+                            <span class="border1"></span>
+                            <span class="border2"></span>
+                            <span class="border3"></span>
+                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -212,10 +224,14 @@
                             <div class="event_textbox">
                                 <p class="event_title">
                                     발렌타인데이
-<br>시즌 메뉴 출시 이벤트
+                                    <br>시즌 메뉴 출시 이벤트
                                 </p>
                                 <p>2023.02.01~2023.02.14</p>
                             </div>
+                            <span class="border1"></span>
+                            <span class="border2"></span>
+                            <span class="border3"></span>
+                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -226,10 +242,14 @@
                             <div class="event_textbox">
                                 <p class="event_title">
                                     카페 둘쎄 남포동점
-<br>그랜드 오픈 이벤트
+                                    <br>그랜드 오픈 이벤트
                                 </p>
                                 <p>2023.05.06~2023.06.06</p>
                             </div>
+                            <span class="border1"></span>
+                            <span class="border2"></span>
+                            <span class="border3"></span>
+                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -239,11 +259,15 @@
                             </div>
                             <div class="event_textbox">
                                 <p class="event_title">
-                                    크리스마스 케이크 
-<br>사전예약 이벤트
+                                    크리스마스 케이크
+                                    <br>사전예약 이벤트
                                 </p>
                                 <p>2022.11.31~2022.12.15</p>
                             </div>
+                            <span class="border1"></span>
+                            <span class="border2"></span>
+                            <span class="border3"></span>
+                            <span class="border4"></span>
                         </a>
                     </div>
                     <div></div>
@@ -260,7 +284,7 @@
                     <div class="division">
                         <strong>접수 구분</strong>
                         <input type="radio" checked name="division" value="inquiry" id="radio1">
-                        <label for="radio1" ><em></em>문의</label>
+                        <label for="radio1"><em></em>문의</label>
                         <input type="radio" name="division" value="compliment" id="radio2">
                         <label for="radio2"><em></em>칭찬</label>
                         <input type="radio" name="division" value="dissatisfaction" id="radio3">
@@ -313,14 +337,14 @@
                     <div class="email_box">
                         <strong>이메일</strong>
                         <p class="email">
-                            <span><input type="text" name="email"></span>@
-                            <span><input type="text" name="email"></span>
+                            <span><input type="text" name="email" value=""></span>@
+                            <span><input type="text" name="email" id="email_domain" value=""></span>
                             <span>
-                                <select name="selemail" id="selemail">
-                                    <option value="not" selected="select">선택하세요</option>
+                                <select name="select_domain" id="select_domain">
+                                    <option value="" selected="select">선택하세요</option>
                                     <option value="gmail.com">gmail.com</option>
                                     <option value="naver.com">naver.com</option>
-                                    <option value="nampo">hanmail.net</option>
+                                    <option value="hanmail.net">hanmail.net</option>
                                 </select>
                             </span>
                         </p>
@@ -334,7 +358,8 @@
                     <div class="content_box">
                         <strong>상세내용</strong>
                         <p class="content">
-                            <textarea name="content" id="" cols="30" rows="10" placeholder="내용 작성시 매장방문날짜, 시간, 직원의 인상착의 등 상세한 상황설명을 해주셔야 신속하고 정확한 처리가 가능합니다."></textarea>
+                            <textarea name="content" id="" cols="30" rows="10"
+                                placeholder="내용 작성시 매장방문날짜, 시간, 직원의 인상착의 등 상세한 상황설명을 해주셔야 신속하고 정확한 처리가 가능합니다."></textarea>
                         </p>
                     </div>
                     <div class="file_box">
