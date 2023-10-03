@@ -36,8 +36,8 @@
                                 <li><a href="./submenu2.html">Menu</a></li>
                             </ul>
                             <ul class="gnb_right">
-                                <li><a href="#">News </a></li>
-                                <li><a href="#">Store</a></li>
+                                <li><a href="./submenu3.html">News </a></li>
+                                <li><a href="./submenu4.html">Store</a></li>
                             </ul>
                         </div>
                         <div class="submenu">
@@ -60,9 +60,9 @@
                                     <li><a href="#">매장찾기</a></li>
                                 </ul>
                                 <ul class="submenu_right">
-                                    <li><a href="#">브랜드 소식</a></li>
-                                    <li><a href="#">이벤트</a></li>
-                                    <li><a href="#">고객의 소리</a></li>
+                                    <li><a href="#section1">브랜드 소식</a></li>
+                                    <li><a href="#section2">이벤트</a></li>
+                                    <li><a href="#section3">고객의 소리</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -79,15 +79,25 @@
             </h2>
             <ul class="section1_imgbox">
                 <li>
-                    <a href="#"><img src="../images/submenu3/news1.png" alt="news"></a>
-                    <a href="#"><img src="../images/submenu3/news2.png" alt="news"></a>
+                    <a href="#">
+                        <img src="../images/submenu3/news1.png" alt="news">
+                    </a>
+                    <a href="#">
+                        <img src="../images/submenu3/news2.png" alt="news">
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><img src="../images/submenu3/news3.png" alt="news"></a>
+                    <a href="#">
+                        <img src="../images/submenu3/news3.png" alt="news">
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><img src="../images/submenu3/news4.png" alt="news"></a>
-                    <a href="#"><img src="../images/submenu3/news5.png" alt="news"></a>
+                    <a href="#">
+                        <img src="../images/submenu3/news4.png" alt="news">
+                    </a>
+                    <a href="#">
+                        <img src="../images/submenu3/news5.png" alt="news">
+                    </a>
                 </li>
             </ul>
 
@@ -174,10 +184,6 @@
                                 </p>
                                 <p>2023.09.01~2023.09.15</p>
                             </div>
-                            <span class="border1"></span>
-                            <span class="border2"></span>
-                            <span class="border3"></span>
-                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -192,10 +198,6 @@
                                 </p>
                                 <p>2023.09.01~2023.09.30</p>
                             </div>
-                            <span class="border1"></span>
-                            <span class="border2"></span>
-                            <span class="border3"></span>
-                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -210,10 +212,6 @@
                                 </p>
                                 <p>2023.06.01~2023.06.30</p>
                             </div>
-                            <span class="border1"></span>
-                            <span class="border2"></span>
-                            <span class="border3"></span>
-                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -228,10 +226,6 @@
                                 </p>
                                 <p>2023.02.01~2023.02.14</p>
                             </div>
-                            <span class="border1"></span>
-                            <span class="border2"></span>
-                            <span class="border3"></span>
-                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -246,10 +240,6 @@
                                 </p>
                                 <p>2023.05.06~2023.06.06</p>
                             </div>
-                            <span class="border1"></span>
-                            <span class="border2"></span>
-                            <span class="border3"></span>
-                            <span class="border4"></span>
                         </a>
                     </div>
                     <div class="event">
@@ -264,10 +254,6 @@
                                 </p>
                                 <p>2022.11.31~2022.12.15</p>
                             </div>
-                            <span class="border1"></span>
-                            <span class="border2"></span>
-                            <span class="border3"></span>
-                            <span class="border4"></span>
                         </a>
                     </div>
                     <div></div>
@@ -303,14 +289,12 @@
                     </div>
                     <div class="store_box">
                         <strong>방문 매장</strong>
-                        <p class="store_select">
-                            <select name="store" id="store">
-                                <option value="not" selected="select">선택안함</option>
-                                <option value="nampo">부산 남포점</option>
-                                <option value="busande">부산대점</option>
-                                <option value="dadepo">부산 다대포점</option>
-                            </select>
-                        </p>
+                        <select name="store" id="store">
+                            <option value="not" selected="select">선택안함</option>
+                            <option value="nampo">부산 남포점</option>
+                            <option value="busande">부산대점</option>
+                            <option value="dadepo">부산 다대포점</option>
+                        </select>
                     </div>
                     <div class="date_box">
                         <strong>방문 일자</strong>
@@ -339,14 +323,14 @@
                         <p class="email">
                             <span><input type="text" name="email" value=""></span>@
                             <span><input type="text" name="email" id="email_domain" value=""></span>
-                            <span>
-                                <select name="select_domain" id="select_domain">
-                                    <option value="" selected="select">선택하세요</option>
-                                    <option value="gmail.com">gmail.com</option>
-                                    <option value="naver.com">naver.com</option>
-                                    <option value="hanmail.net">hanmail.net</option>
-                                </select>
-                            </span>
+                            
+                            <select name="select_domain" id="select_domain">
+                                <option value="" selected="select">선택하세요</option>
+                                <option value="gmail.com">gmail.com</option>
+                                <option value="naver.com">naver.com</option>
+                                <option value="hanmail.net">hanmail.net</option>
+                            </select>
+
                         </p>
                     </div>
                     <div class="customer_title_box">
@@ -365,7 +349,7 @@
                     <div class="file_box">
                         <strong>파일첨부</strong>
                         <p class="file">
-                            <span><input type="file" name="file" id="file_btn"></span>
+                            <input type="file" name="file" id="file_btn">
                         </p>
                     </div>
                     <div class="submit_box">
