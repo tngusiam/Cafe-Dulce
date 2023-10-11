@@ -353,7 +353,7 @@
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
     content: url(../images/main/prev.png);
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
 .swiper-button-next,
@@ -365,7 +365,7 @@
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
     content: url(../images/main/next.png);
-    margin-right: 150px;
+    margin-right: 250px;
 }
 
 .swiper-pagination {
