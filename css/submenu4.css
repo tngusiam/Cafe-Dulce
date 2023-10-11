@@ -685,16 +685,13 @@ select::-ms-expand{
 }
 .result_box ul li a{
     display: block;
-}
-.result_img{
-    float: left;
-    width: 200px;
+    display: flex;
 }
 .result_img img{
     display: block;
 }
 .result_text{
-    float: left;
+
     text-align: left;
     width: 200px;
     padding-left: 20px;
