@@ -85,6 +85,7 @@ body {
     top: 10px;
     left: 50%;
     margin-left: -40px;
+    z-index: 99;
 }
 
 .gnb {
@@ -412,6 +413,7 @@ select::-ms-expand{
     color: #333;
     font-size: 18px;
     font-weight: 900;
+    z-index: 9;
 }
 
 .right .font_18 .noc_po {
@@ -419,6 +421,7 @@ select::-ms-expand{
     left: 2%;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 10;
 }
 
 .turn {
@@ -561,6 +564,7 @@ select::-ms-expand{
 }
 .arrow{
     position: absolute;
+    z-index: 9;
 }
 .arrow img{
     width: 20px;
@@ -640,6 +644,7 @@ select::-ms-expand{
     width: 500px;
     height: 800px;
     background-color: #fff;
+    z-index: 9;
 }
 .map_box h2{
     padding: 50px 0 40px;
@@ -658,6 +663,7 @@ select::-ms-expand{
     position: absolute;
     top: 8px;
     right: 60px;
+    z-index: 10;
     width: 41px;
     height: 41px;
     border: none;
@@ -732,6 +738,7 @@ select::-ms-expand{
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 10;
 }
 .result_box ul li a:hover .result_plus{
     transform: translate(-15%, -15%) rotate(90deg);
@@ -806,6 +813,7 @@ select::-ms-expand{
     border-radius: 50%;
     padding: 3px;
     box-sizing: border-box;
+    z-index: 9;
 }
 
 #footer {
@@ -886,6 +894,7 @@ select::-ms-expand{
     position: absolute;
     top: 0;
     left: 15px;
+    z-index: 9;
     opacity: 0;
     transition: all 0.3s;
 }
