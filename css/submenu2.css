@@ -84,6 +84,7 @@ body {
     position: absolute;
     top: 10px;
     left: 50%;
+    z-index: 99;
     margin-left: -40px;
 }
 
@@ -181,6 +182,7 @@ body {
 #container{
     width: 1320px;
     margin: 0 auto;
+    position: relative;
 }
 #section1{
     height: 1000px;
@@ -438,6 +440,7 @@ body {
     position: absolute;
     top: 0;
     left: 15px;
+    z-index: 9;
     opacity: 0;
     transition: all 0.3s;
 }
