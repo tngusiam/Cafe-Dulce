@@ -431,7 +431,6 @@ select::-ms-expand{
 
 .text_info p {
     float: left;
-    font-size: 16px;
 }
 
 .text_info .answer {
@@ -443,8 +442,9 @@ select::-ms-expand{
 }
 .text_info .answer_text{
     width: 90%;
+    font-size: 16px;
 }
-.right li .text_info p span{
+.right li .text_info .answer_text span{
     font-size: 14px;
     color: #9a9a9a;
 }
