@@ -435,11 +435,14 @@ select::-ms-expand{
 }
 
 .text_info .answer {
-    width: 150px;
+    width: 10%;
     text-align: center;
     font-size: 50px;
     font-weight: 800;
     color: #5EB0A0;
+}
+.text_info .answer_text{
+    width: 90%;
 }
 .right li .text_info p span{
     font-size: 14px;
@@ -725,12 +728,12 @@ select::-ms-expand{
     vertical-align: -2px;
     margin-left: 7px;
 }
-.plus{
+.result_plus{
     position: absolute;
     top: 0;
     right: 0;
 }
-.result_box ul li a:hover .plus{
+.result_box ul li a:hover .result_plus{
     transform: translate(-15%, -15%) rotate(90deg);
     transition: all 0.3s;
 }
