@@ -85,6 +85,7 @@ body {
     top: 10px;
     left: 50%;
     margin-left: -40px;
+    z-index: 99;
 }
 
 .gnb {
@@ -219,6 +220,7 @@ body {
     color: #6CBCB0;
     left: 50%;
     margin-left: -11px;
+    z-index: 2;
 }
 
 .inner_section1> p> span:nth-child(1) {
@@ -336,21 +338,25 @@ body {
     position: absolute;
     top: -120px;
     left: -605px;
+    z-index: 2;
 }
 .section1_bg2{
     position: absolute;
     top: 580px;
     right: -480px;
+    z-index: 2;
 }
 .section1_bg3{
     position: absolute;
     bottom: -50px;
     left: -430px; 
+    z-index: 2;
 }
 .section1_bg4{
     position: absolute;
     bottom: -300px;
     right: -400px;
+    z-index: 2;
 }
 #section2_3_bg{
     height: 2170px;
@@ -588,6 +594,7 @@ body {
     position: absolute;
     top: 0;
     left: 15px;
+    z-index: 9;
     opacity: 0;
     transition: all 0.3s;
 }
