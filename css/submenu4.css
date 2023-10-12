@@ -432,24 +432,23 @@ select::-ms-expand{
     transition: transform 0.5s;
 }
 
-.text_info p {
-    float: left;
-}
-
 .text_info .answer {
     width: 10%;
+    float: left;
     text-align: center;
     font-size: 50px;
     font-weight: 800;
     color: #5EB0A0;
 }
-.text_info .answer_text{
+.answer_box{
     width: 90%;
+    float: left;
     font-size: 16px;
 }
-.right li .text_info .answer_text span{
+.answer_text{
     font-size: 14px;
     color: #9a9a9a;
+    padding-top: 10px;
 }
 #section3{
     background-color: #FFF3DC;
